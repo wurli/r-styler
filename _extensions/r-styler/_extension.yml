@@ -2,5 +2,6 @@ title: R Styler
 author: Jacob Scott, styler authors
 Version: 0.1.0
 contributes:
-  - r-styler.lua
+  filters:
+    - r-styler.lua
   
