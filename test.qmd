@@ -1,0 +1,19 @@
+---
+title: "test"
+format: html
+editor: visual
+filters:
+  - style.lua
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code
+
+```{r badly-styled-code}
+library( dplyr ,warn.conflicts = F)
+
+# This is a comment
+
+starwars |> filter(tolower(substr(name , 1, 1)) %in% letters[1:5]) |> select(1:5) # Another comment
+```
