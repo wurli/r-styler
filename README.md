@@ -1,5 +1,4 @@
 # r-styler
-
 This is a [Quarto
 filter](https://quarto.org/docs/extensions/distributing.html) which
 applies
@@ -36,7 +35,6 @@ starwars |> filter( height > 100,
   species == "Human") |>
    select(1 : 3)
 ```
-
 ````
 
 The above code will be styled according to the [tidyverse style guide](https://style.tidyverse.org)
@@ -52,3 +50,8 @@ starwars |>
   ) |>
   select(1:3)
 ```
+
+## Why use this filter?
+You shouldn't - it's much better to write well-styled code in the first place.
+However you may want to use it to render *someone else's* poorly-styled 
+document.

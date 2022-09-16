@@ -1,0 +1,15 @@
+---
+title: R-Styler Example
+filters:
+   - r-styler
+---
+
+Here's some nicely formatted code:
+
+```{r}
+library(  dplyr , warn.conf = FALSE)
+
+starwars |> filter( height > 100,
+  species == "Human") |>
+   select(1 : 3)
+```
